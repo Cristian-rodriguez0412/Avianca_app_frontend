@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Páginas
 import Home from "./pages/Home.jsx";
 import Search from "./pages/Search.jsx";
-import KidsZone from "./pages/kidsZone.jsx";
+import KidsZone from "./pages/KidsZone.jsx";
 import Login from "./pages/login.jsx";
 import Profile from "./pages/profile.jsx";
 

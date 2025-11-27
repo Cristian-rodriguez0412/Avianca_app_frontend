@@ -5,11 +5,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
 import KidsZone from "./pages/KidsZone";
-import Login from "./pages/Login";
+import Login from "./pages/login";
 import Profile from "./pages/Profile";
-import AirplaneGame from "./pages/Games/AirplaneGame";
-import RocketGame from "./pages/Games/RocketGame";
-import KidsPuzzle from "./pages/Games/KidsPuzzle";
+import AirplaneGame from "./pages/games/AirplaneGame";
+import RocketGame from "./pages/games/RocketGame";
+import KidsPuzzle from "./pages/games/KidsPuzzle";
 
 function App() {
   return (

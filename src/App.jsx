@@ -6,7 +6,7 @@ import Home from "./pages/Home.jsx";
 import Search from "./pages/Search.jsx";
 import KidsZone from "./pages/KidsZone.jsx";
 import Login from "./pages/login.jsx";
-import Profile from "./pages/profile.jsx";
+import Profile from "./pages/Profile.jsx";
 
 // Juegos
 import AirplaneGame from "./pages/game/AirplaneGame.jsx";

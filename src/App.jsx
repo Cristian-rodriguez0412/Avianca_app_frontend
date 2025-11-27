@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Páginas
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import Search from "./pages/Search";
-import KidsZone from "./pages/KidsZone";
+import KidsZone from "./pages/kidsZone";
 import Login from "./pages/login";
-import Profile from "./pages/Profile";
+import Profile from "./pages/profile";
 import AirplaneGame from "./pages/games/AirplaneGame";
 import RocketGame from "./pages/games/RocketGame";
 import KidsPuzzle from "./pages/games/KidsPuzzle";

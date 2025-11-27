@@ -2,14 +2,16 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Páginas
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Search from "./pages/Search";
 import KidsZone from "./pages/kidsZone";
 import Login from "./pages/login";
 import Profile from "./pages/profile";
-import AirplaneGame from "./pages/games/AirplaneGame";
-import RocketGame from "./pages/games/RocketGame";
-import KidsPuzzle from "./pages/games/KidsPuzzle";
+
+// Juegos
+import AirplaneGame from "./pages/game/AirplaneGame";
+import RocketGame from "./pages/game/RocketGame";
+import KidsPuzzle from "./pages/game/KidsPuzzle";
 
 function App() {
   return (
@@ -20,10 +22,10 @@ function App() {
         <Route path="/kids" element={<KidsZone />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
+
         <Route path="/kids/airplane-game" element={<AirplaneGame />} />
         <Route path="/kids/rocket-game" element={<RocketGame />} />
         <Route path="/kids/puzzle" element={<KidsPuzzle />} />
-
       </Routes>
     </BrowserRouter>
   );

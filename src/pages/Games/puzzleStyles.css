@@ -1,0 +1,29 @@
+.puzzle-container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.puzzle-grid {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3px;
+}
+
+.puzzle-piece {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 4px;
+  transition: transform 0.2s;
+  cursor: grab;
+  border: 1px solid #ddd;
+}
+
+.puzzle-piece:active {
+  cursor: grabbing;
+  transform: scale(1.05);
+}
